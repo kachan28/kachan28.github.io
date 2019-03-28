@@ -2,6 +2,15 @@
  
  AOS.init();
 
+ document.getElementById('top').scrollIntoView({
+});
+
+ var links = document.getElementsByTagName('a');
+ for (var i=0, len=links.length; i < len; i ++) {
+   links[i].target = '_blank';
+   links[i].rel = "noopener noreferrer";
+ }
+
  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -39,5 +48,4 @@ function topFunction() {
 	document.getElementById('top').scrollIntoView({
             behavior: 'smooth'
         });
-  // return return_priznak;
 }
