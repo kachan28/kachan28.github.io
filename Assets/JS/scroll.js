@@ -1,9 +1,6 @@
- jQuery('body').css('overflow','hidden'); 
+jQuery('body').css('overflow','hidden'); 
  
  AOS.init();
-
- document.getElementById('top').scrollIntoView({
-});
 
  var links = document.getElementsByTagName('a');
  for (var i=0, len=links.length; i < len; i ++) {
