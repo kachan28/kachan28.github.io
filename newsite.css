@@ -1,0 +1,434 @@
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+#start{
+	text-align: center;
+}
+
+#header{
+	position: relative;
+    color: rgb(255, 250, 250);
+	font-size: 6vw;
+	margin-top: 2em;
+    font-family: Hi-tech;
+    z-index: 1;
+}
+
+#underheader{
+	position: relative;
+	color: rgb(255, 250, 250);
+	margin-top: 1em;
+    font-size: 2vw;
+    font-family: Hi-tech;
+    z-index: 1;
+}
+
+#hreftotrip{
+	bottom: 10%;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	color: rgb(255, 250, 250);
+	font-size: 5.5vw;	
+	margin-top: 3em;
+	z-index: 1;
+}
+
+#myBtn {
+	text-align: center;
+	opacity: 0.5;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 150%;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    height: 50px;
+    width: 100px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#about{
+	/* position: absolute; */
+	margin-top: 300%;
+	color: rgb(255, 250, 250);
+}
+
+#aboutheader{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#particles-js{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#navbar{
+	margin-top:2%;
+	display: none;
+	z-index: 2;
+	min-width: 100%;
+}
+
+ul#hrefs li{
+	display: inline;
+	margin: 10%;
+	font-size: 3vw;
+}
+
+#skills{
+	font-size: 3vw;
+}
+
+ul#skills li{
+	margin: 5%;
+}
+
+#hreftocrypto{
+	font-size: 4vw;
+}
+
+#VKClient{
+	position: absolute;
+	top: 800%;
+	color: rgb(255, 250, 250);		
+	width: 100%;
+}
+
+#contacts{
+	position: absolute;
+	top: 1500%;
+	width: 100%;
+	height: 80%;
+}
+
+#btcimg{
+	position: absolute;
+	max-width: 7%;
+	max-height: 7%;
+	margin-left: 68%;
+	margin-top: 22%;
+}
+
+#ltcimg{
+	position: absolute;
+	max-width: 6%;
+	max-height: 6%;
+	margin-left: 69%;
+	margin-top: 25%;
+}
+#dogeimg{
+	position: absolute;
+	max-width: 6%;
+	max-height: 6%;
+	margin-left: 70%;
+	margin-top: 28%;
+}
+#dashimg{
+	position: absolute;
+	max-width: 5%;
+	max-height: 5%;
+	margin-left: 71%;
+	margin-top: 31%;
+}
+#ethimg{
+	position: absolute;
+	max-width: 6%;
+	max-height: 6%;
+	margin-left: 73.5%;
+	margin-top: 33%;
+}
+
+#applogo{
+	position: absolute;
+	max-width: 25%;
+	margin-left: 7%;
+	margin-top: 15%;	
+}
+
+#hreftocode{
+	font-size: 4vw;
+	color: rgb(255, 250, 250);
+	position: absolute;
+	margin-top: 44%;
+	margin-left: 10%;
+}
+
+#hreftoapp{
+	font-size: 4vw;
+	color: rgb(255, 250, 250);
+	position: absolute;
+	margin-top: 44%;
+	margin-left: 39%;
+}
+
+#logogit{
+	max-width: 5%;
+	color: rgb(255, 250, 250);
+	position: absolute;
+	margin-top: 44.5%;
+	margin-left: 29%;
+}
+
+#logoapp{
+	max-width: 5%;
+	color: rgb(255, 250, 250);
+	position: absolute;
+	margin-top: 44.5%;
+	margin-left: 64%;
+}
+
+#hreftocontactsfromcrypto{
+	color: rgb(255, 250, 250);
+	position: absolute;
+	margin-top: 44%;
+	margin-left: 75%;
+	font-size: 4vw;
+}
+
+.projecttitle{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 1000px;
+	margin-left: 33%;
+	margin-top: 8%;
+	z-index: 2;
+}
+
+.aboutproject{
+	position: absolute;
+	font-size: 2vw;
+	max-width: 50%;
+	margin-left: 45%;
+	margin-top: 17%;
+	z-index: 2;
+}
+
+.headercontacts{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 1000px;
+	margin-left: 40%;
+	margin-top: -2%;
+	z-index: 2;
+}
+
+.imgvk{
+	max-width: 20%;
+	max-height: 20%;
+	margin-left: 5%;
+	margin-top: 5%;
+	z-index: 2;
+}
+
+.VK{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 100px;
+	margin-left: 15%;
+	margin-top: -6%;
+	z-index: 2;
+}
+
+.imggit{
+	position: absolute;
+	max-width: 20%;
+	max-height: 20%;
+	margin-left: -8%;
+	margin-top: 18%;	
+}
+
+.Git{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 100px;
+	margin-left: 15%;
+	margin-top: 7%;
+	z-index: 2;
+}
+
+.HrefToVK{
+	color: rgb(255, 250, 250);
+}
+
+.HrefToGit{
+	color: rgb(255, 250, 250);
+}
+
+.imginst{
+	position: absolute;
+	max-width: 20%;
+	max-height: 20%;
+	margin-left: -8%;
+	margin-top: 30%;	
+}
+
+.Inst{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 100px;
+	margin-left: 15%;
+	margin-top: 19%;
+	z-index: 2;
+}
+
+.HrefToInst{
+	color: rgb(255, 250, 250);
+}
+
+.imgsteam{
+	position: absolute;
+	max-width: 20%;
+	max-height: 20%;
+	margin-left: 40%;
+	margin-top: 5%;	
+}
+
+.Steam{
+	position: absolute;
+	font-size: 5vw;
+	min-width: 100px;
+	margin-left: 63%;
+	margin-top: -6%;
+	z-index: 2;
+}
+
+.HrefToSteam{
+	color: rgb(255, 250, 250);
+}
+
+.Donations{
+	position: absolute;
+	font-size: 4vw;
+	min-width: 100px;
+	margin-left: 55%;
+	margin-top: 4%;
+	z-index: 2;
+	color: rgb(255, 250, 250);
+}
+
+.walletlist{
+	position: absolute;
+	font-size: 1.3vw;
+	min-width: 100%;
+	margin-left: 54%;
+	margin-top: 8%;
+	z-index: 2;
+	color: rgb(255, 250, 250);
+}
+
+.text{
+	z-index: 2;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.Hi-Tech{
+	font-family: Hi-tech;
+	color: rgb(255, 250, 250);
+	z-index: 2;
+}
+
+.about{
+	margin-top: 0.5em;
+	font-size: 13vw;
+}
+
+.me{
+	margin-top: 0.7em;
+	margin-left: -2.1ex;
+	font-size: 25vw;
+}
+
+.content{
+	font-size: 2vw;
+	margin-top: 5em;
+}
+
+.pabcr{
+	font-size: 2vw;
+}
+
+@font-face{
+	font-family: 'Hi-tech';
+	src: url('Assets/Fonts/Logo-font/commando.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.zoomIn {
+	  -webkit-animation-name: zoomIn;
+	  animation-name: zoomIn;
+	  -webkit-animation-duration: 3s;
+	  animation-duration: 3s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale3d(.3, .3, .3);
+		  transform: scale3d(.3, .3, .3);
+	  }
+	  50% {
+	  	opacity: 1;
+	  }
+}
+@keyframes zoomIn {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale3d(.3, .3, .3);
+		  transform: scale3d(.3, .3, .3);
+	  }
+	  50% {
+	  	opacity: 1;
+	  }
+}  
+.underzoomIn {
+	  -webkit-animation-name: zoomIn;
+	  animation-name: zoomIn;
+	  -webkit-animation-duration: 4s;
+	  animation-duration: 4s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale3d(.3, .3, .3);
+		  transform: scale3d(.3, .3, .3);
+	  }
+	  50% {
+	  	opacity: 1;
+	  }
+}
+@keyframes zoomIn {
+	  0% {
+		  opacity: 0;
+		  -webkit-transform: scale3d(.3, .3, .3);
+		  transform: scale3d(.3, .3, .3);
+	  }
+	  50% {
+	  	opacity: 1;
+	  }
+}
