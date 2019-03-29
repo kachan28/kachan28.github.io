@@ -126,45 +126,44 @@ ul#skills li{
 
 #btcimg{
 	position: absolute;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 7%;
+	max-height: 7%;
 	margin-left: 68%;
 	margin-top: 22%;
 }
 
 #ltcimg{
 	position: absolute;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 6%;
+	max-height: 6%;
 	margin-left: 69%;
 	margin-top: 25%;
 }
 #dogeimg{
 	position: absolute;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 6%;
+	max-height: 6%;
 	margin-left: 70%;
 	margin-top: 28%;
 }
 #dashimg{
 	position: absolute;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 5%;
+	max-height: 5%;
 	margin-left: 71%;
 	margin-top: 31%;
 }
 #ethimg{
 	position: absolute;
-	max-width: 50px;
-	max-height: 50px;
+	max-width: 6%;
+	max-height: 6%;
 	margin-left: 73.5%;
 	margin-top: 33%;
 }
 
 #applogo{
 	position: absolute;
-	max-width: 600px;
-	max-height: 600px;
+	max-width: 25%;
 	margin-left: 7%;
 	margin-top: 13%;	
 }
@@ -186,8 +185,7 @@ ul#skills li{
 }
 
 #logogit{
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 5%;
 	color: rgb(255, 250, 250);
 	position: absolute;
 	margin-top: 43%;
@@ -195,8 +193,7 @@ ul#skills li{
 }
 
 #logoapp{
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 5%;
 	color: rgb(255, 250, 250);
 	position: absolute;
 	margin-top: 43%;
@@ -239,8 +236,8 @@ ul#skills li{
 }
 
 .imgvk{
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 20%;
+	max-height: 20%;
 	margin-left: 5%;
 	margin-top: 5%;
 	z-index: 2;
@@ -257,8 +254,8 @@ ul#skills li{
 
 .imggit{
 	position: absolute;
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 20%;
+	max-height: 20%;
 	margin-left: -8%;
 	margin-top: 18%;	
 }
@@ -282,8 +279,8 @@ ul#skills li{
 
 .imginst{
 	position: absolute;
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 20%;
+	max-height: 20%;
 	margin-left: -8%;
 	margin-top: 30%;	
 }
@@ -303,8 +300,8 @@ ul#skills li{
 
 .imgsteam{
 	position: absolute;
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 20%;
+	max-height: 20%;
 	margin-left: 40%;
 	margin-top: 5%;	
 }
