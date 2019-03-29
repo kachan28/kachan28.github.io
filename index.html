@@ -55,9 +55,18 @@
 		</div>
 		<div id="VKClient" class ="Hi-Tech text">
 			<p class="projecttitle" data-aos="fade-down" data-aos-duration="1000">VKCrypto by MK</p>
-			<p class=""></p>
+			<p class="aboutproject" data-aos="fade-down" data-aos-duration="1000">VKCrypto by MK - new Client for VK social network, which allows you keep your correspondence secret.
+				It using RSA-4096+Camellia-256 Cyphers, so you can be absolutely quiet about your messages. The application supports two-factor authentication.
+				In addition to sending messages, you can also share images with your friends. The images are also securely encrypted. The app is under active development.
+			</p>
+			<img src="Assets/Images/app_logo.png" id="applogo" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"/>
+			<a href="https://github.com/kachan28/VKMessenger-by-MK" id="hreftocode" data-aos="slide-up" data-aos-duration="1000">View code</a>			
+			<a href="https://github.com/kachan28/VKMessenger-by-MK"><img src="Assets/Images/github.svg" id="logogit" data-aos="slide-up" data-aos-duration="1000"/></a>
+			<a href="" id="hreftoapp" data-aos="slide-up" data-aos-duration="1000">Try VKCrypto</a>
+			<a href=""><img src="Assets/Images/app_logo.png" id="logoapp" data-aos="slide-up" data-aos-duration="1000"/></a>
+			<a href="#contacts" id="hreftocontactsfromcrypto" data-aos="slide-up" data-aos-duration="1000">Contact me</a>
 		</div>
-		<div id="contacts" class ="Hi-Tech text">
+		<div id="contacts" class ="Hi-Tech text">			
 			<p class="headercontacts" data-aos="fade-left" data-aos-duration="1000">contacts</p>
 			<a href="https://vk.com/id228623776"><img src="Assets/Images/vklogo.png" class="imgvk" data-aos="flip-right" data-aos-duration="1000"/></a>
 			<p class="VK" data-aos="flip-right" data-aos-duration="1000"><a href="https://vk.com/id228623776" class="HrefToVK">VK</a></p>
@@ -85,6 +94,11 @@
 					<p>ETH: 0x6948b3e0e4378a3062fb421e09e77f9ccccce0f8</p>
 				</li>
 			</ul>
+			<img id="btcimg" src="Assets/Images/bitcoin.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
+			<img id="ltcimg" src="Assets/Images/ltc.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
+			<img id="dogeimg" src="Assets/Images/dogecoin.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
+			<img id="dashimg" src="Assets/Images/Dash.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
+			<img id="ethimg" src="Assets/Images/eth.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
 		</div>
 		<div id="particles-js"></div>
 	</div>
@@ -100,5 +114,13 @@
 	<script src="Assets/JS/particles.js" defer> </script>
 	<script src="Assets/JS/app.js" defer> </script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		$().ready(function()
+			{
+				document.getElementById('top').scrollIntoView({
+				});
+			}
+		)
+	</script>
 </body>
 </html>
