@@ -132,14 +132,14 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <div class="float-right"><img class="img-fluid" src="img/resize_logo_app.png" alt="" data-aos="slide-right" data-aos-duration="1000"></div>
+          <div class="float-right"><a href="https://github.com/kachan28/VKCrypto/releases"><img class="img-fluid" src="img/resize_logo_app.png" alt="" data-aos="slide-right" data-aos-duration="1000"></a></div>
         </div>
         <div class="col-lg-6">
           <div class="text-center h-100 project" data-aos="slide-left" data-aos-duration="1000">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-black-50">Try app</h4>
-                <p class="mb-0 text-black-50">And try this app!</p>
+                <p class="mb-0 text-black-50">And <a href="https://github.com/kachan28/VKCrypto/releases">try</a> this app!</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -240,6 +240,39 @@
       links[i].target = '_blank';
       links[i].rel = "noopener noreferrer";
     }
+    $(function() {
+
+    var origTitle, animatedTitle, timer;
+
+    function animateTitle(newTitle) {
+    var currentState = false;
+    origTitle = document.title;  // save original title
+    animatedTitle = "Hey There! " + origTitle;
+    timer = setInterval(startAnimation, 2000);
+
+    function startAnimation() {
+      // animate between the original and the new title
+      document.title = currentState ? origTitle : animatedTitle;
+      currentState = !currentState;
+    }
+  }
+
+  function restoreTitle() {
+    clearInterval(timer);
+    document.title = origTitle; // restore original title
+  }
+
+  // Change page title on blur
+  $(window).blur(function() {
+      animateTitle();
+  });
+
+  // Change page title back on focus
+  $(window).focus(function() {
+      restoreTitle();
+  });
+
+  });
   </script>
   <script>
     AOS.init();
