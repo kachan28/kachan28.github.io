@@ -1,142 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" style="overflow-x:hidden">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<title>
-		Michael K's home page
-	</title>
-	<link rel="stylesheet" type="text/css" href="newsite.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="Assets/JS/scroll.js" defer> </script>
-	<script src="Assets/JS/particles.js" defer> </script>
-	<script src="Assets/JS/app.js" defer> </script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>MK's-homepage</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
 </head>
-<body style="background-color: black">
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	<div id="top"></div>
-	<div id="navbar" class = "table fixed-top row">
-		<ul id = "hrefs">
-			<li>
-				<a href = "#about" class = "Hi-Tech">About</a>
-			</li>
-			<li>
-				<a href = "#VKClient" class = "Hi-Tech">VkCrypto by MK</a>
-			</li>
-			<li>
-				<a href = "#contacts" class = "Hi-Tech">Contacts</a>
-			</li>
-		</ul>
-	</div>
-	<div class = "container-fluid h-100">
-		<div class = "container-fluid">
-			<div id = "start" class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
-					<div id = "header" class="underzoomIn justify-content-center"><p>Michael K</p></div>
-					<div  id = "underheader" class="underzoomIn text-center"><p>Programmer, innovator, software developer</p></div>
-					<div id = "hreftotrip" class="Hi-Tech text animated bounceInUp"><a href="#about" style="color:aliceblue">Start introduction</a></div>
-				</div>
-				<div class="col-md-3"></div>
-			</div>
-		</div>
 
-		<div id = "about" class="Hi-Tech text container-fluid w-100">
-			<div id = "info container-fluid">
-				<div class="row">
-					<div id = "aboutheader" class="col-md-6">
-						<div class="Hi-tech text about"><p data-aos="slide-right" data-aos-duration="800">About</p></div>
-						<div class="Hi-tech text me"><p data-aos="slide-right" data-aos-duration="800">me</p></div>
-					</div>
-					<div id = "skillsandhref" class="col-md-6">						
-						<div class="Hi-tech text content"><p data-aos="slide-left" data-aos-duration="1000">Hello! My name is Michael. I have been programming for two years. My skills:</p></div>
-						<div id = "skills"><ul data-aos="slide-left" data-aos-duration="1000">
-							<li>
-								.NET(WPF,XAML)
-							</li>
-							<li>
-								Python(Selenium)
-							</li>
-							<li>
-								C++(Qt)
-							</li>
-							<li>
-								Linux
-							</li>
-						</ul></div>
-						<div>
-							<p class="Hi-tech text pabcr" data-aos="slide-left" data-aos-duration="1000">Now I'm working on project which calls VKCrypto.</p>
-							<a href="#VKClient" id="hreftocrypto" class="Hi-Tech text">More about VKCrypto</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="VKClient" class ="Hi-Tech text">
-			<p class="projecttitle" data-aos="fade-down" data-aos-duration="1000">VKCrypto by MK</p>
-			<p class="aboutproject" data-aos="fade-down" data-aos-duration="1000">VKCrypto by MK - new Client for VK social network, which allows you keep your correspondence secret.
-				It using RSA-4096+Camellia-256 Cyphers, so you can be absolutely quiet about your messages. The application supports two-factor authentication.
-				In addition to sending messages, you can also share images with your friends. The images are also securely encrypted. The app is under active development.
-			</p>
-			<img src="Assets/Images/app_logo.png" id="applogo" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000"/>
-			<a href="https://github.com/kachan28/VKMessenger-by-MK" id="hreftocode">View code</a>			
-			<a href="https://github.com/kachan28/VKMessenger-by-MK"><img src="Assets/Images/github.svg" id="logogit"/></a>
-			<a href="" id="hreftoapp">Try VKCrypto</a>
-			<a href=""><img src="Assets/Images/app_logo.png" id="logoapp"/></a>
-			<a href="#contacts" id="hreftocontactsfromcrypto">Contact me</a>
-		</div>
-		<div id="contacts" class ="Hi-Tech text">			
-			<p class="headercontacts" data-aos="fade-left" data-aos-duration="1000">contacts</p>
-			<a href="https://vk.com/id228623776"><img src="Assets/Images/vklogo.png" class="imgvk" data-aos="flip-right" data-aos-duration="1000"/></a>
-			<p class="VK" data-aos="flip-right" data-aos-duration="1000"><a href="https://vk.com/id228623776" class="HrefToVK">VK</a></p>
-			<a href="https://github.com/kachan28"><img src="Assets/Images/github.svg" class="imggit" data-aos="flip-right" data-aos-duration="1000"/></a>
-			<p class="Git" data-aos="flip-right" data-aos-duration="1000"><a href="https://github.com/kachan28" class="HrefToGit">Github</a></p>
-			<a href="https://www.instagram.com/kochkinma/"><img src="Assets/Images/instagram.png" class="imginst" data-aos="flip-right" data-aos-duration="1000"/></a>
-			<p class="Inst" data-aos="flip-right" data-aos-duration="1000"><a href="https://www.instagram.com/kochkinma/" class="HrefToInst">Instagram</a></p>
-			<a href="https://steamcommunity.com/profiles/76561198132342648"><img src="Assets/Images/Steam_Icon.png" class="imgsteam" data-aos="flip-left" data-aos-duration="1000"/></a>
-			<p class="Steam" data-aos="flip-left" data-aos-duration="1000"><a href="https://steamcommunity.com/profiles/76561198132342648" class="HrefToSteam">Steam</a></p>
-			<p class="Donations" data-aos="flip-right" data-aos-duration="1000">Donations</p>
-			<ul class="walletlist" data-aos="flip-right" data-aos-duration="1000">
-				<li>
-					<p>BTC: 147cqcvz3GuN6okjZ9VH1ddRdsfjyP119C</p>
-				</li>
-				<li>
-					<p>LTC: LWUF6rscCrXx4F6L6v9VMDnSHv5PBiJAQr</p>
-				</li>
-				<li>
-					<p>DOGE: DSSCR3QFsrWYhrW2LEuo6Xi7pH9DxcLNzK</p>
-				</li>
-				<li>
-					<p>DASH: XcUA3SvG8jybWW9iwniqT5QFvdG3MZBK2m</p>
-				</li>
-				<li>
-					<p>ETH: 0x6948b3e0e4378a3062fb421e09e77f9ccccce0f8</p>
-				</li>
-			</ul>
-			<img id="btcimg" src="Assets/Images/bitcoin.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
-			<img id="ltcimg" src="Assets/Images/ltc.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
-			<img id="dogeimg" src="Assets/Images/dogecoin.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
-			<img id="dashimg" src="Assets/Images/Dash.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
-			<img id="ethimg" src="Assets/Images/eth.png" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500"/>
-		</div>
-		<div id="particles-js"></div>
-	</div>
+<body id="page-top">
 
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Top</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">VKCrypto by MK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-	<div id="particles-js"></div>
-	<script>
-		$().ready(function()
-			{
-				document.getElementById('top').scrollIntoView({
-				});
-			}
-		)
-	</script>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase" data-aos="zoom-out-down" data-aos-duration="2000">Michael K</h1>
+        <h2 class="text-white-50 mx-auto mt-3 mb-5" data-aos="fade-up" data-aos-duration="2000">Programmer, innovator, software developer</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger" data-aos="slide-up" data-aos-duration="1800" data-aos-delay="3">Start introduction</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="text-white mb-5" data-aos="zoom-out-down" data-aos-duration="2000">About me</h1>
+          <h5 class="text-white-50 mb-4" data-aos="slide-left" data-aos-duration="2000">Hello! My name is Michael. I have been programming for two years. My skills:
+          </h5>
+          <ul id="skills" class="list-group mb-5" data-aos="flip-left" data-aos-duration="2000">
+              <li class="list-group-item list-group-item-dark">
+                .NET(WPF,XAML)
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                Python(Selenium)
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                C++(Qt)
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                Linux
+              </li>
+            </ul>
+          <h5 class="text-white-50 mb-3" data-aos="slide-up" data-aos-duration="2000"> Now I'm working on project which calls VKCrypto.</h5>
+          <a href="#projects" class="btn btn-primary js-scroll-trigger mb-3" data-aos="fade-up" data-aos-duration="2000">More about VKCrypto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/app_logo.png" alt="" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left" data-aos="slide-up" data-aos-duration="2000">
+            <h4>VKCrypto</h4>
+            <p class="text-black-50 mb-0">VKCrypto by MK - new Client for VK social network, which allows you keep your correspondence secret.
+                It using RSA-4096+Camellia-256 Cyphers, so you can be absolutely quiet about your messages. The application supports two-factor authentication.
+                In addition to sending messages, you can also share images with your friends. The images are also securely encrypted. The app is under active development.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6 mb-5 mt-5">
+          <a href="https://github.com/kachan28/VKMessenger-by-MK"><img class="img-fluid" src="img/github.png" alt="" data-aos="fade-up" data-aos-duration="1000"></a>
+        </div>
+        <div class="col-lg-6 mb-5 mt-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-black-50">View code on github</h4>
+                <p class="mb-0 text-black-50">You can <a href="https://github.com/kachan28/VKMessenger-by-MK">view code</a> on github.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/app_logo.png" alt="" data-aos="slide-right" data-aos-duration="1000">
+        </div>
+        <div class="col-lg-6">
+          <div class="text-center h-100 project" data-aos="slide-left" data-aos-duration="1000">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-black-50">Try app</h4>
+                <p class="mb-0 text-black-50">And try this app!</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+      <div class="container text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="text-center h-100 project mb-5">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-center">
+                  <h1 class="text-white display-4">Donations</h1>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-3  h-100">
+                <div class="card-body text-center">                  
+                  <i class="fab fa-btc text-primary mb-2 fa-2x"></i>
+                  <h4 class="text-uppercase m-0">Bitcoin</h4>
+                  <hr class="my-3">
+                  <div class="small text-black-50">147cqcvz3GuN6okjZ9VH1ddRdsfjyP119C</div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card py-3 h-100">
+                <div class="card-body text-center">
+                  <i class="fab fa-ethereum text-primary mb-2 fa-2x"></i>
+                  <h4 class="text-uppercase m-0">Etherum</h4>
+                  <hr class="my-3">
+                  <div class="small text-black-50">
+                    0x6948b3e0e4378a3062fb421e09e77f9ccccce0f8
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4 mb-4 mb-md-0">
+                <div class="card py-3 h-100">
+                  <div class="card-body text-center">
+                    <i class="fab fa-monero text-primary mb-2 fa-2x"></i>
+                    <h4 class="text-uppercase m-0">Monero</h4>
+                    <hr class="my-3">
+                    <div class="small text-black-50">
+                        0x74e4641de821603cb812940146b19e6c0c43557d
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+          <div class="social d-flex justify-content-center mt-5">
+            <a href="https://github.com/kachan28" class="mx-3">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://vk.com/id228623776" class="mx-3">
+              <i class="fab fa-vk fa-2x"></i>
+            </a>
+            <a href="https://steamcommunity.com/profiles/76561198132342648" class="mx-3">
+              <i class="fab fa-steam fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/kochkinma/" class="mx-3">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+          </div>
+    
+        </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; MichaelK 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    var links = document.getElementsByTagName('a');
+    for (var i=0, len=links.length; i < len; i ++) {
+      links[i].target = '_blank';
+      links[i].rel = "noopener noreferrer";
+    }
+  </script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
