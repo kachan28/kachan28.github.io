@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #f5f5dc; 
+  border: 1px solid #f5f5dc;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -105,7 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -150,20 +150,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #000000;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #000000;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #000000;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #000000;
 }
 
 .about-section {
@@ -284,7 +284,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #fff;
 }
 
 .bg-black {
@@ -302,3 +302,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.special-card {  
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+  }
